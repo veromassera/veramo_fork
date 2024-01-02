@@ -21,6 +21,7 @@ async function main() {
     key: newKey
   })
 
+  
 
   
   console.log(`New identifier created`)
