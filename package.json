@@ -24,7 +24,7 @@
     "docs": "pnpm docs:copy && pnpm docs:build",
     "docs:copy": "ts-node ./scripts/docs-copy.ts",
     "docs:build": "ts-node ./scripts/docs-build.ts && pnpm docs:pretty",
-    "docs:pretty": "prettier --write docs/**/*.md"
+    "docs:pretty": "prettier --write docs/**/*.md"   
   },
   "devDependencies": {
     "@jest/globals": "29.7.0",

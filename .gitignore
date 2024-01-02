@@ -28,7 +28,7 @@ lerna-debug.log
 *.tsbuildinfo
 identity-store.json
 key-store.json
-*.sqlite
+
 
 .vscode/
 node_modules

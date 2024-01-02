@@ -1,0 +1,53 @@
+{
+  "name": "veramo-node-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec node --loader ts-node/esm ./src/index.ts",
+    "polygon:addKey": "ts-node --esm c:\\GitHub\\veramo_fork\\src\\uc_polygon\\addKey.ts"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.15",
+    "@types/debug": "^4.1.12",
+    "@types/express": "^4.17.17",
+    "@types/fast-crc32c": "^2.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@google-cloud/kms": "^4.0.0",
+    "@mattrglobal/jsonld-signatures-bbs": "^1.2.0",
+    "@types/node": "^20.5.7",
+    "@veramo/core": "^5.1.2",
+    "@veramo/credential-status": "^5.4.1",
+    "@veramo/credential-w3c": "^5.4.1",
+    "@veramo/data-store": "^5.4.1",
+    "@veramo/did-comm": "^5.4.1",
+    "@veramo/did-jwt": "^5.4.1",
+    "@veramo/did-manager": "^5.1.2",
+    "@veramo/did-provider-ethr": "^5.1.2",
+    "@veramo/did-provider-peer": "^5.4.1",
+    "@veramo/did-provider-web": "^5.1.2",
+    "@veramo/did-resolver": "^5.1.2",
+    "@veramo/key-manager": "^5.1.2",
+    "@veramo/kms-local": "^5.1.2",
+    "@veramo/message-handler": "^5.4.1",
+    "@veramo/remote-server": "^5.4.1",
+    "@veramo/selective-disclosure": "^5.4.1",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "eth-crypto": "^2.6.0",
+    "ethers": "^6.9.1",
+    "ethr-did-resolver": "^7.0.2",
+    "fast-crc32c": "^2.0.0",
+    "key-encoder": "^2.0.3",
+    "kubo-rpc-client": "^3.0.1",
+    "nodemon": "^3.0.1",
+    "sqlite3": "^5.1.2",
+    "ts-node-dev": "^2.0.0",
+    "web-did-resolver": "^2.0.21"
+  },
+  "type": "module"
+}
