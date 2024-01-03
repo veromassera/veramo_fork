@@ -157,8 +157,9 @@ export const agent = createAgent<IDIDManager & IKeyManager & IDataStore & IDataS
             {
                 name: 'polygon:testnet',
                 chainId: 80001,
-                rpcUrl: 'polygon-mumbai.g.alchemy.com/v2/JTT2FanfXJPoQl79pPKhq6VbhPHJiyKX',
-                provider: new JsonRpcProvider('polygon-mumbai.g.alchemy.com/v2/JTT2FanfXJPoQl79pPKhq6VbhPHJiyKX', 80001)   
+                //rpcUrl: 'https://polygon-mumbai.g.alchemy.com/v2/JTT2FanfXJPoQl79pPKhq6VbhPHJiyKX',
+                //rpcUrl:'https://rpc-mumbai.maticvigil.com',
+                provider: new JsonRpcProvider('https://polygon-mumbai.g.alchemy.com/v2/JTT2FanfXJPoQl79pPKhq6VbhPHJiyKX', 80001)   
                 
               }
           ],

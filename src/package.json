@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "nodemon --exec node --loader ts-node/esm ./src/index.ts",
-    "polygon:addKey": "ts-node --esm c:\\GitHub\\veramo_fork\\src\\uc_polygon\\addKey.ts"
+    "polygon:addKey": "ts-node --esm uc_polygon/addKey.ts"
   },
   "devDependencies": {
     "@types/cors": "^2.8.15",
