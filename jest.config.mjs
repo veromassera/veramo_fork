@@ -18,7 +18,7 @@ const config = {
   coverageReporters: ['json'],
   coverageDirectory: './coverage',
   coverageProvider: 'v8',
-  testMatch: ['**/__tests__/**/*.test.ts'],
+  testMatch: ['**/credential-ld/src/__tests__/**/*.test.ts', '**/credential-bbs/src/__tests__/**/*.test.ts'],
   automock: false,
   // // typescript 5 removes the need to specify relative imports as .js, so we should no longer need this workaround
   // // but webpack still requires .js specifiers, so we are keeping it for now
@@ -36,6 +36,9 @@ const config = {
   },
   extensionsToTreatAsEsm: ['.ts'],
   testEnvironment: 'node',
+  
+  modulePaths: ["<rootDir>", "<rootDir>/src"]
+    
 }
 
 export default config
